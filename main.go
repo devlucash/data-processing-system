@@ -3,10 +3,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/devlucash/data-processing-system/controller"
+	"datasystem/controller"
 )
-
-// replace "your-app" with your actual module name
 
 func main() {
 	http.HandleFunc("/", controller.Home)

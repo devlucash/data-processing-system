@@ -1,3 +1,3 @@
-module github.com/devlucash/data-processing-system
+module datasystem
 
 go 1.24.3
